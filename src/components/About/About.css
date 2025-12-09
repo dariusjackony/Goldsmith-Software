@@ -21,6 +21,21 @@
     font-size: 20px;
     margin-top: 10px;
 }
+.learn-btn {
+    padding: 10px 30px;
+    margin-top: 30px;
+    background: #fbbf24;
+    border: none;
+    border-radius: 5px;
+    color: #0f172a;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.learn-btn:hover {
+    background: #fbbf24;
+    transform: translateY(-4px);
+}
 
 @media (max-width: 768px){
     .about-content-container {

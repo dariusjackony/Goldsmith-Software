@@ -7,10 +7,11 @@ export default function About(){
             <div className="about-content">
               <span className="about-title">About Us</span>
               <p className="about-subtitle">
-                Goldsmith is a moderntech company building custom systems that
+                Goldsmith is a modern tech company building custom systems that
                 help businesses operate effeciently automate processes and scale.
                 We design every product with precision, stability and innovation.
               </p>
+              <button className="learn-btn">Learn More</button>
            </div>
            <div className="about-img">
              <img src={techSoln} className="goldsmith-abt-img" />

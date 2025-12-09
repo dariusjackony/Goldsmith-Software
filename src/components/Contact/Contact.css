@@ -15,55 +15,70 @@
 }
 .info-box {
     margin-top: 10px;
+}.contact-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
-.contact-form {
-    margin-top: 20px;
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 50px;
+  border: 1px solid #1e293b;            
+  border-radius: 8px;
+  background-color: #1e293b;            
+  color: #e2e8f0;                       
+  font-size: 16px;
 }
-.contact-form input{
-    padding: 10px 70px;
-    border: none;
-    margin-top: 10px;
-    border-radius: 5px;
-    background-color: #d1d8d6;
-    text-align: left;
+
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #94a3b8;                        
 }
-input::placeholder{
-    text-align: left;
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid #38bdf8;            
+  background-color: #243447;            
+  box-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
 }
-.contact-form input:focus{
-    outline: none;
-    background-color: hsla(163, 8%, 83%, 0.938);
+
+.contact-form textarea {
+  height: 130px;
+  resize: none;
 }
-textarea{
-    padding: 40px 70px;
-    margin-top: 10px;
-    border-radius: 5px;
-    background-color: #d1d8d6;
+
+.send-btn {
+  padding: 12px 25px;
+  margin-top: 5px;
+  background: #fbbf24;
+  border: none;
+  border-radius: 8px;
+  color: #0f172a;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
-.send-btn{
-    padding: 10px 25px;
-    margin-top: 10px;
-    background: #fbbf24;
-    border: none;
-    border-radius: 5px;
-    color: #0f172a;
-    font-size: 17px;
-    transition: all 0.3s ease;
-    cursor: pointer;
+
+.send-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(251, 191, 36, 0.4);
 }
-.send-btn:hover{
-    background: #fbbf24;
-    transform: translateY(-4px);
-}
-@media (max-width: 768px){
+ @media (max-width: 768px) {
     .contact-content-container {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 25px;
         flex-wrap: wrap;
-  }
-  textarea{
-    margin-top: 20px;
+        flex-direction: column-reverse;  
+
+        gap: 25px;                
+    }
+  .contact-form {
+    width: 100%;
+    max-width: 400px;        
   }
 }

@@ -11,6 +11,9 @@
     font-size: 1.8rem;
     color: white;
 }
+.service-img{
+    width: 40px;
+}
 .service-content {
     display: flex;
     justify-content: space-evenly;

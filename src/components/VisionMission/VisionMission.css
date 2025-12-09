@@ -1,0 +1,47 @@
+.vm-main-container {
+    margin-top: 45px;
+}
+
+.vm-image {
+    width: 450px;
+    margin-top: 25px;
+}
+.vm-content-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vm-para {
+    max-width: 500px;
+}
+.num-btn{
+    padding: 11px 12px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 17px;
+    background: #0d0838;
+}
+.vm-title{
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+.vm-para {
+    max-width: 500px;
+    line-height: 1.4;
+    font-size: 18px;
+    margin-top: 7px;
+}
+.vision-content2{
+    margin-top: 30px;
+}
+
+@media (max-width: 768px){
+    .vm-content-container {
+        flex-direction: column-reverse;
+    }
+    .vm-image {
+      width: 400px;
+      margin-top: 20px;
+  }
+}

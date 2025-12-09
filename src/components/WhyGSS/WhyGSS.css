@@ -1,0 +1,25 @@
+.whygss-main-container {
+    text-align: center;
+    margin-top: 40px;
+}
+.whygss-title {
+    font-size: 1.8rem;
+}
+.whygss-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.whyGSS-card{
+    width: 500px;
+    background: linear-gradient(to bottom,#0a0f1f, #0f172a, #182231);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.whyGSS-card p{
+    font-size: 1.2rem;
+}

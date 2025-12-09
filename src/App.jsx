@@ -5,16 +5,24 @@ import VisionMIssionPage from "./pages/VisionMission/VisionMissionPage";
 import ServicesPage from "./pages/Services/ServicesPage";
 import WhyGSSPage from "./pages/WhyGSS/WhyGSSPage";
 import ContactPage from "./pages/Contact/ContactPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 export default function App(){
   return(
-    <>
+    <BrowserRouter>
       <Navbar />
-      <HeroPage />
-      <AboutPage />
-      <VisionMIssionPage />
-      <ServicesPage />
-      <WhyGSSPage />
-      <ContactPage />
-    </>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <HeroPage />
+            <VisionMIssionPage />
+            <ServicesPage />
+            <WhyGSSPage />
+            <ContactPage />
+          </>
+        } />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }

@@ -1,0 +1,32 @@
+.core-value-main-container{
+    padding: 40px;
+    text-align: center;
+}
+.core-value-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.cv-card {
+    padding: 20px;
+    max-width: 250px;
+}
+.cv-title{
+    font-size: 1.8rem;
+}
+.cv.paragraph {
+    font-size: 19px;
+}
+
+@media (max-width: 768px) {
+ .core-value-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+}

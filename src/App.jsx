@@ -5,6 +5,7 @@ import VisionMIssionPage from "./pages/VisionMission/VisionMissionPage";
 import ServicesPage from "./pages/Services/ServicesPage";
 import WhyGSSPage from "./pages/WhyGSS/WhyGSSPage";
 import ContactPage from "./pages/Contact/ContactPage";
+import AboutSection from "./pages/About/AboutSection";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App(){
@@ -22,7 +23,7 @@ export default function App(){
             <ContactPage />
           </>
         } />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/about" element={<AboutSection />} />
       </Routes>
     </BrowserRouter>
   )

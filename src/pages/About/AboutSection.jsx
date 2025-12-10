@@ -3,6 +3,7 @@ import WhatWeDo from "../../components/About/AboutPageComponents/WhatWeDo";
 import VisionAndMission from "../../components/About/AboutPageComponents/VisionAndMission";
 import CoreValue from "../../components/About/AboutPageComponents/CoreValue";
 import WhyChoose from "../../components/About/AboutPageComponents/WhyChoose";
+import ServicesInfo from "../../components/About/AboutPageComponents/ServicesInfo";
 export default function AboutSection(){
     return(
      <>
@@ -11,6 +12,7 @@ export default function AboutSection(){
        <VisionAndMission />
        <CoreValue />
        <WhyChoose />
+       <ServicesInfo />
      </>
     )
 }

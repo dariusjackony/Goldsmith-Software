@@ -43,9 +43,9 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border: 1px solid #38bdf8;            
+  border: 1px solid #ebf8388f;            
   background-color: #243447;            
-  box-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
+  box-shadow: 0 0 8px rgba(248, 245, 56, 0.24);
 }
 
 .contact-form textarea {
@@ -73,8 +73,13 @@
     .contact-content-container {
         flex-wrap: wrap;
         flex-direction: column-reverse;  
-
         gap: 25px;                
+    }
+    .quick-links {
+       text-align: center;
+    }
+    .where-to-find-us {
+       text-align: center;
     }
   .contact-form {
     width: 100%;

@@ -3,22 +3,18 @@ import "./WhatWeDo.css";
 export default function WhatWeDo(){
     const WorkData = [
         {
-          title: "Custom software & business management systems",
-          description: "Business management systems ERP & workflow automation inventory, sales & financial management."
+          title: "Custom software & business management systems"
         },
          {
-          title: "Web and mobile application development",
-          description: "Business management systems ERP & workflow automation inventory, sales & financial management."
+          title: "Web and mobile application development"
+         },
+         {
+          title: "AI-powered tools and automation systems"
         },
          {
-          title: "AI-powered tools and automation systems",
-          description: "Business management systems ERP & workflow automation inventory, sales & financial management."
-        },
-         {
-          title: "Future-focused IoT systems",
-          description: "Business management systems ERP & workflow automation inventory, sales & financial management."
-        }
-    ]
+          title: "Future-focused IoT systems for agriculture and smart operations"
+         }    
+        ]
     return(
         <section className="what-we-do-main-container">
             <div className="what-we-do-content">
@@ -31,9 +27,6 @@ export default function WhatWeDo(){
                             <span className="wwd-title">
                                 {item.title}
                             </span>
-                            <p className="wwd-paragraph">
-                                {item.description}
-                            </p>
                         </div>
                     ))}
                 </div>

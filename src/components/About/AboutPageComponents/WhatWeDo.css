@@ -24,9 +24,7 @@
     line-height: 1.4;
     font-size: 19px;
 }
-.wwd-paragraph {
-     margin-top: 10px;
-}
+
 @media (max-width: 768px) {
     .wwd-content-container {
         display: flex;

@@ -48,3 +48,18 @@
 .sr-img {
     width: 140px;
 }
+.si-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.tag {
+    padding: 6px 12px;
+    background-color: #0f2847;
+    border-radius: 25px;
+    border: 1px solid #1a3b63;
+    font-size: 0.8rem;
+    color: #cfe6ff;
+}

@@ -6,6 +6,7 @@ import ServicesPage from "./pages/Services/ServicesPage";
 import WhyGSSPage from "./pages/WhyGSS/WhyGSSPage";
 import ContactPage from "./pages/Contact/ContactPage";
 import AboutSection from "./pages/About/AboutSection";
+import ServicesPageSection from "./pages/Services/ServicesPageSection";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App(){
@@ -24,6 +25,7 @@ export default function App(){
           </>
         } />
         <Route path="/about" element={<AboutSection />} />
+        <Route path="/services" element={<ServicesPageSection />} />
       </Routes>
     </BrowserRouter>
   )

@@ -63,3 +63,9 @@
     font-size: 0.8rem;
     color: #cfe6ff;
 }
+
+@media (max-width:768px) {
+    .sr-img {
+        display: none;
+    }
+}

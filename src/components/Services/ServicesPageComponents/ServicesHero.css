@@ -1,0 +1,27 @@
+.services-hero-main-container {
+    text-align: center;
+    color: white;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom,#0a0f1f, #0f172a, #182231);
+}
+.sh-subtitle {
+    max-width: 800px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+.sh-title {
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  
+    .sh-title {
+        font-size: 2.2rem;
+    }
+    .sh-subtitle {
+        font-size: 1.2rem;
+    }
+}

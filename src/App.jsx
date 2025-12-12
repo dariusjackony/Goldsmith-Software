@@ -7,6 +7,7 @@ import WhyGSSPage from "./pages/WhyGSS/WhyGSSPage";
 import ContactPage from "./pages/Contact/ContactPage";
 import AboutSection from "./pages/About/AboutSection";
 import ServicesPageSection from "./pages/Services/ServicesPageSection";
+import ContactSectionPage from "./pages/Contact/ContactSectionPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App(){
@@ -26,6 +27,7 @@ export default function App(){
         } />
         <Route path="/about" element={<AboutSection />} />
         <Route path="/services" element={<ServicesPageSection />} />
+        <Route path="/contact" element={<ContactSectionPage />} />
       </Routes>
     </BrowserRouter>
   )

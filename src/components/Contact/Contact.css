@@ -50,8 +50,20 @@
       text-align: center;
     }
 }
-@media (max-width: 480px) {
-  .contact-head{
+  @media (max-width: 480px) {
+  .contact-head {
     font-size: 23px;
+    text-align: left;
   }
+
+  .quick-links,
+  .where-to-find-us,
+  .working-hours {
+    text-align: left;
+  }
+
+  .contact-content-container {
+    align-items: flex-start; 
+  }
+
 }

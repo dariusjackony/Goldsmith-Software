@@ -58,7 +58,7 @@
     max-width: 100%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .why-choose-title {
     font-size: 23px;
   }

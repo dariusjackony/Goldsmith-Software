@@ -27,7 +27,7 @@
 }
 @media (max-width: 480px) {
     .abt-head-paragraph {
-       max-width: 350px;
+       max-width: 95%;
     }
     .abt-head {
         font-size: 28px;

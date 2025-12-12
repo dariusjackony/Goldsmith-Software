@@ -30,6 +30,6 @@
         font-size: 28px;
     }
     .ch-subtitle{
-        max-width: 350px;
+        max-width: 100%;
     }
 }

@@ -56,12 +56,8 @@
     transform: translateY(-4px);
 }
 
-@media (max-width: 600px) {
-    .cf-main-container {
-        padding: 50px 15px;
-    }
-
-    .cf-details {
-        padding: 30px 20px;
-    }
+@media (max-width: 480px) {
+   .cf-head {
+     font-size: 18px;
+   }
 }

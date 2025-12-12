@@ -53,3 +53,8 @@
         max-width: 330px;
     }
 }
+@media (max-width: 480px) {
+    .vm-title {
+        font-size: 23px;
+    }
+}

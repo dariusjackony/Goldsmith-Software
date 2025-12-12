@@ -43,7 +43,7 @@ export default function ServicesInfo(){
     ]
     return(
         <section className="services-info-container">
-            <span className="sr-head">Services</span>
+            <span className="sr-head">Our Expertise Areas</span>
             <div className="service-info-content">
                <div className="si-content">
                   {ServiceData.map((item,index) => (

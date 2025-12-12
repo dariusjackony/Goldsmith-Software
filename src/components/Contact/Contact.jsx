@@ -41,12 +41,25 @@ export default function Contact(){
                             </span>
                         </div>
                     </div>
-                    <form className="contact-form">
-                        <input type="text" placeholder="Your Name" required /><br></br>
-                        <input type="email" placeholder="Your Email" required/><br></br>
-                        <textarea placeholder="Your Message" required></textarea><br></br>
-                        <button className="send-btn">Send Message</button>
-                    </form>
+                    <div className="working-hours">
+                        <span className="contact-head">Working Hours</span>
+                        <div className="info-box">
+                            <span>Monday- Friday: 9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div className="info-box">
+                            <span>Saturday: 10:00 AM - 4:00 PM</span>
+                        </div>
+                        <div className="info-box">
+                            <span>
+                                Sundays & Holidays: Closed
+                            </span>
+                        </div>
+                        <div className="info-box">
+                            <span>
+                                Open during business hours
+                            </span>
+                        </div>
+                    </div>
           </div>
         </section>
     )

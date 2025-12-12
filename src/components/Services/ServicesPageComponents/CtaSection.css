@@ -1,0 +1,30 @@
+.CtaSection-main-container {
+    padding: 80px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.cta-title {
+    font-size: 1.8rem;
+}
+.cta-subtitle {
+    max-width: 800px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+.cta-btn {
+    padding: 10px 30px;
+    margin-top: 30px;
+    background: #fbbf24;
+    border: none;
+    border-radius: 5px;
+    color: #0f172a;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.cta-btn:hover {
+    background: #fbbf24;
+    transform: translateY(-4px);
+}

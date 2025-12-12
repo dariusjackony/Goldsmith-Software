@@ -29,7 +29,8 @@
      .sh-subtitle {
        max-width: 100%;
        text-align: left;
-       line-height: 1.2rem;
+       line-height: 1.3rem;
+       font-size: 18px;
     }
     .sh-title {
         font-size: 23px;

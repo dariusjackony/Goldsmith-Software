@@ -29,7 +29,8 @@
     .abt-head-paragraph {
        max-width: 100%;
        text-align: left;
-       line-height: 1.2rem;
+       line-height: 1.3rem;
+       font-size: 18px;
     }
     .abt-head {
         font-size: 28px;

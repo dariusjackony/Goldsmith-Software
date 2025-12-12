@@ -25,3 +25,11 @@
         font-size: 1.2rem;
     }
 }
+@media (max-width: 480px) {
+    .ch-title {
+        font-size: 28px;
+    }
+    .ch-subtitle{
+        max-width: 350px;
+    }
+}

@@ -31,3 +31,15 @@
 .VaM-paragraph{
     margin-top: 10px;
 }
+
+@media (max-width: 480px) {
+  .VaM-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .VaM-card {
+    max-width: 330px;
+    padding: 25px;
+  }
+}

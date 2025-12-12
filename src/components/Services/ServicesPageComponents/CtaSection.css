@@ -28,3 +28,12 @@
     background: #fbbf24;
     transform: translateY(-4px);
 }
+
+@media (max-width: 480px) {
+    .cta-title {
+        font-size: 28px;
+    }
+    .cta-subtitle {
+        max-width: 350px;
+    }
+}

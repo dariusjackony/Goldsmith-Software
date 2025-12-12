@@ -48,3 +48,11 @@
     margin-top: 35px;
 }
 }
+@media (max-width: 480px){
+    .about-subtitle {
+        max-width: 330px;
+    }
+    .goldsmith-abt-img {
+        max-width: 100%;
+    }
+}

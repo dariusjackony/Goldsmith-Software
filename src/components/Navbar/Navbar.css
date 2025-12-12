@@ -112,3 +112,11 @@
     transform: rotate(-45deg) translate(5px, -6px);
   }
 }
+@media (max-width: 480px) {
+  .navbar{
+    width: 100%;
+  }
+   .navbar-title {
+    font-size: 1.3rem;
+   }
+}

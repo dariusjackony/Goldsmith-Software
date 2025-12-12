@@ -24,3 +24,12 @@
         font-size: 1.2rem;
     }
 }
+
+@media (max-width: 480px){
+    .sh-subtitle {
+        max-width: 350px;
+    }
+    .sh-title {
+        font-size: 28px;
+    }
+}

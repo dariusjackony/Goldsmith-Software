@@ -52,3 +52,9 @@
   max-width: 480px;
   border-radius: 12px;
 }
+
+@media (max-width: 768px) {
+  .cloud-img {
+    max-width: 100%;
+  }
+}

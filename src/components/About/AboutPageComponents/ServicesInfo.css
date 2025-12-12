@@ -46,9 +46,7 @@
 }
 
 .sr-img {
-    width: 250px;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.226);
+    width: 150px;
 }
 .si-tags {
     display: flex;
@@ -69,5 +67,14 @@
 @media (max-width:768px) {
     .sr-img {
         display: none;
+    }
+}
+
+@media (max-width: 480px){
+    .sr-head{
+        font-size: 28px;
+    }
+    .si-card {
+        max-width: 100%;
     }
 }

@@ -45,3 +45,11 @@
       margin-top: 20px;
   }
 }
+@media (max-width: 768px) {
+    .vm-image {
+        max-width: 100%;
+    }
+    .vm-para {
+        max-width: 330px;
+    }
+}

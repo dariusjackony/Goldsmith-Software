@@ -27,9 +27,16 @@
 }
 @media (max-width: 480px) {
     .abt-head-paragraph {
-       max-width: 95%;
+       max-width: 100%;
+       text-align: left;
+       line-height: 1.2rem;
     }
     .abt-head {
         font-size: 28px;
+    }
+    .about-hero-main {
+        display: block;
+        text-align: left;
+        padding: 40px 20px;
     }
 }

@@ -26,10 +26,17 @@
 }
 
 @media (max-width: 480px){
-    .sh-subtitle {
-        max-width: 350px;
+     .sh-subtitle {
+       max-width: 100%;
+       text-align: left;
+       line-height: 1.2rem;
     }
     .sh-title {
-        font-size: 28px;
+        font-size: 23px;
+    }
+    .services-hero-main-container {
+        display: block;
+        text-align: left;
+        padding: 40px 20px;
     }
 }

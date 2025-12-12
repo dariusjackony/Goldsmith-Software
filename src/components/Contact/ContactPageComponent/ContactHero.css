@@ -25,11 +25,19 @@
         font-size: 1.2rem;
     }
 }
-@media (max-width: 480px) {
-    .ch-title {
-        font-size: 28px;
+
+@media (max-width: 480px){
+     .ch-subtitle {
+       max-width: 100%;
+       text-align: left;
+       line-height: 1.2rem;
     }
-    .ch-subtitle{
-        max-width: 100%;
+    .ch-title {
+        font-size: 23px;
+    }
+    .contact-hero {
+        display: block;
+        text-align: left;
+        padding: 40px 20px;
     }
 }

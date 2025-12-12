@@ -16,6 +16,8 @@
 .info-box {
     margin-top: 10px;
 }
+.footer-link {color: white; text-decoration: none;}
+.footer-link:hover {color: #38bdf8;}
 .send-btn {
   padding: 12px 25px;
   margin-top: 5px;

@@ -26,16 +26,16 @@ export default function Contact(){
                     <div className="quick-links">
                     <span className="contact-head">Quick Links</span>
                         <div className="info-box">
-                           <Link to="/"><span>Home</span></Link>  
+                           <Link to="/" className="footer-link"><span>Home</span></Link>  
                         </div>
                         <div className="info-box">
-                            <Link to="/about"><span>About</span></Link>
+                            <Link to="/about" className="footer-link"><span>About</span></Link>
                         </div>
                         <div className="info-box">
-                            <Link to="/services"><span>Services</span></Link>
+                            <Link to="/services" className="footer-link"><span>Services</span></Link>
                         </div>
                         <div className="info-box">
-                           <Link to="/contact"><span>Contact</span></Link> 
+                           <Link to="/contact" className="footer-link"><span>Contact</span></Link> 
                         </div>
                     </div>
                     <div className="working-hours">

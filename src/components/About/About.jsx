@@ -1,5 +1,6 @@
 import "./About.css";
 import techSoln from "../../assets/tech.webp";
+import { Link } from "react-router-dom";
 export default function About(){
     return(
         <section className="about-main-container">
@@ -11,7 +12,9 @@ export default function About(){
                 help businesses operate effeciently automate processes and scale.
                 We design every product with precision, stability and innovation.
               </p>
-              <button className="learn-btn">Learn More</button>
+              <Link to="/about">
+                <button className="learn-btn">Learn More</button>
+              </Link>
            </div>
            <div className="about-img">
              <img src={techSoln} className="goldsmith-abt-img" />

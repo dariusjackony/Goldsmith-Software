@@ -1,5 +1,6 @@
 import "./Hero.css";
 import HeroBg from "../../assets/hero.webp";
+import { Link } from "react-router-dom";
 export default function Hero() {
     return(
         <section className="hero"
@@ -12,11 +13,9 @@ export default function Hero() {
                 <p className="hero-subtitle">
                     Crafting digital solutions and precisions
                 </p>
-                <button
-                 className="hero-btn"
-                >
-                    Get Started
-                </button>
+                <Link to="/contact">
+                  <button className="hero-btn">Get Started</button>
+                </Link>
             </div>
         </section>
     )

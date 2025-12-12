@@ -1,4 +1,5 @@
 import "./Contact.css";
+import { Link } from "react-router-dom";
 export default function Contact(){
     return(
         <section className="contact-main-container">
@@ -9,7 +10,7 @@ export default function Contact(){
                             <span>Kampala,Uganda</span>
                         </div>
                         <div className="info-box">
-                            <span>+256 7EE GSS 000</span>
+                            <span>+256 779 287 395</span>
                         </div>
                         <div className="info-box">
                             <span>
@@ -25,20 +26,16 @@ export default function Contact(){
                     <div className="quick-links">
                     <span className="contact-head">Quick Links</span>
                         <div className="info-box">
-                            <span>Home</span>
+                           <Link to="/"><span>Home</span></Link>  
                         </div>
                         <div className="info-box">
-                            <span>About</span>
+                            <Link to="/about"><span>About</span></Link>
                         </div>
                         <div className="info-box">
-                            <span>
-                                Services
-                            </span>
+                            <Link to="/services"><span>Services</span></Link>
                         </div>
                         <div className="info-box">
-                            <span>
-                                Contact
-                            </span>
+                           <Link to="/contact"><span>Contact</span></Link> 
                         </div>
                     </div>
                     <div className="working-hours">
@@ -56,7 +53,7 @@ export default function Contact(){
                         </div>
                         <div className="info-box">
                             <span>
-                                Open during business hours
+                                Open during business hours.
                             </span>
                         </div>
                     </div>

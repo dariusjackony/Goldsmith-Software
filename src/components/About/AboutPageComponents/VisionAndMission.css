@@ -38,6 +38,9 @@
     flex-direction: column;
     justify-content: center;
   }
+  .VaM-head {
+    font-size: 23px;
+  }
   .VaM-card {
     max-width: 300px;
     padding: 25px;

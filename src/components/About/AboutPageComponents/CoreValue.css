@@ -37,3 +37,8 @@
     max-width: 270px;
  }
 }
+@media (max-width: 768px) {
+    .cv-title{
+        font-size: 23px;
+    }
+}

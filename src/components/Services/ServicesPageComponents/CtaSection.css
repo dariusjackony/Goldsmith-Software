@@ -31,9 +31,14 @@
 
 @media (max-width: 480px) {
     .cta-title {
-        font-size: 28px;
+        font-size: 23px;
     }
     .cta-subtitle {
-        max-width: 350px;
+        max-width: 95%;
+    }
+    .CtaSection-main-container{
+        display: block;
+        padding: 40px 20px;
+        text-align: left;
     }
 }

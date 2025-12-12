@@ -51,4 +51,7 @@
     .service-card{
         max-width: 100%;
     }
+    .service-title{
+        font-size: 23px;
+    }
 }

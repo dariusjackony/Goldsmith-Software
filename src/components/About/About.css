@@ -52,6 +52,9 @@
     .about-subtitle {
         max-width: 330px;
     }
+    .about-title {
+        font-size: 23px;
+    }
     .goldsmith-abt-img {
         max-width: 100%;
     }

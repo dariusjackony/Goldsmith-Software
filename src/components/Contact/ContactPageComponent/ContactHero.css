@@ -30,6 +30,7 @@
      .ch-subtitle {
        max-width: 100%;
        text-align: left;
+       font-size: 18px;
        line-height: 1.2rem;
     }
     .ch-title {

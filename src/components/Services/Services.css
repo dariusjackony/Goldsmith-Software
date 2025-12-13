@@ -50,8 +50,12 @@
 @media (max-width: 480px) {
     .service-card{
         max-width: 100%;
+        padding: 20px 10px;
     }
     .service-title{
         font-size: 23px;
+    }
+    .service-img {
+        width: 35px;
     }
 }

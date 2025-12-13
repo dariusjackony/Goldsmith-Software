@@ -27,6 +27,7 @@
 @media (max-width: 480px) {
     .whyGSS-card {
         max-width: 95%;
+        padding: 12px;
     }
     .whyGSS-title{
         font-size: 23px;

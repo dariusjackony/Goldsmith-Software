@@ -1,20 +1,28 @@
 import { Link } from "react-router-dom";
-
+import "./Blog.css";
 const blogs = [
-  { id: "react-hooks", title: "Understanding React Hooks", content:"This is the content about react hooks" },
-  { id: "vite-guide", title: "Vite Complete Guide", content:"This is the guide to learning react vite" },
+  { id: "web-development-tips", title: "Top 5 Web Development Tips", content:"Learn the essential tips for building fast, responsive, and modern websites that delight users." },
+  { id: "ai-in-software", title: "How AI is Changing Software Development", content:"Explore how artificial intelligence is revolutionizing software development, from automation to smarter apps." },
 ];
 
 function Blogs() {
   return (
-    <div>
-      <h1>Blogs</h1>
-
-      {blogs.map((blog) => (
-        <Link key={blog.id} to={`/blogs/${blog.id}`}>
-          <h3>{blog.title}</h3>
-        </Link>
+    <div className="blogs-main-container">
+      <span className="blog-head">Our Blogs</span>
+      <p className="blog-intro">
+      Discover the latest insights, tips, and guides from Goldsmith Softwares Limited — your source for web development, software solutions, and professional consultations.
+      </p>
+      <div className="blogs-content">
+        {blogs.map((blog) => (
+        <div key={blog.id} className="blog-card">
+          <p className="blog-title">{blog.title}</p>
+          <p className="blog-subtitle">{blog.content}</p>
+          <Link to={`/blogs/${blog.id}`}>
+             <button className="read-btn">Read More</button>
+          </Link>
+        </div>
       ))}
+      </div>
     </div>
   );
 }

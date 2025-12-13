@@ -1,0 +1,38 @@
+.footer-container {
+    background-color: #182231 ;
+    /* background: linear-gradient(to bottom,#0a0f1f, #0f172a, #182231); */
+}
+hr{
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.692);
+}
+.footer-content {
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.ft-deta {
+    display: block;
+    margin-top: 7px;
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 20px 10px; 
+    }
+
+    hr {
+        width: 80%; 
+    }
+
+    .footer-content {
+        font-size: 14px; 
+        text-align: center; 
+    }
+    .ft-deta {
+        display: block;
+        margin-top: 8px;
+        font-size: 17px;
+    }
+}

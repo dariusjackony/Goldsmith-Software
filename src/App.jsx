@@ -8,6 +8,7 @@ import ContactPage from "./pages/Contact/ContactPage";
 import AboutSection from "./pages/About/AboutSection";
 import ServicesPageSection from "./pages/Services/ServicesPageSection";
 import ContactSectionPage from "./pages/Contact/ContactSectionPage";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App(){
@@ -29,6 +30,7 @@ export default function App(){
         <Route path="/services" element={<ServicesPageSection />} />
         <Route path="/contact" element={<ContactSectionPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

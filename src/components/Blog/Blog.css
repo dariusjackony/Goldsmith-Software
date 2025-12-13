@@ -27,11 +27,15 @@
     line-height: 1.4;
 }
 .blogs-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 35px;
+    gap: 30px;
+    justify-content: center;
 }
 .blog-card {
-  width: 550px;
-  padding: 35px;
+  width: 350px;
+  padding: 30px;
   border-radius: 10px;
   border-left: 8px solid #1e293b;
   color: white;

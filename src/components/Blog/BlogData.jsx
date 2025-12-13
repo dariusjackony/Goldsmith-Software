@@ -2,7 +2,7 @@ export const blogs = [
   {
     id: "web-development-tips",
     title: "Top 5 Web Development Tips",
-    content: "Learn the essential tips for building fast, responsive, and modern websites that delight users hh."
+    content: "Learn the essential tips for building fast, responsive, and modern websites that delight users hhGoldsmith is a modern tech company building custom systems that  tips for building fast, responsive, and modern websites that delight users hhGoldsmith is a modern tech company building custom systems that  tips for building fast, responsive, and modern websites that delight users hhGoldsmith is a modern tech company building custom systems that  tips for building fast, responsive, and modern websites that delight users hhGoldsmith is a modern tech company building custom systems that  tips for building fast, responsive, and modern websites that delight users hhGoldsmith is a modern tech company building custom systems that  tips for building fast, responsive, and modern websites that delight users hhGoldsmith is a modern tech company building custom systems that help businesses operate effeciently automate processes and scale. We design every product with precision, stability and innovation.."
   },
   {
     id: "ai-in-software",

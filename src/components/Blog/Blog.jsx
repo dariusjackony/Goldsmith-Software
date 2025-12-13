@@ -26,9 +26,9 @@ function Blogs() {
           <div className="card-details">
             <p className="blog-title">{blog.title}</p>
           <p className="blog-subtitle">{blog.content}</p>
-          <Link to={`/blogs/${blog.id}`}>
+           <Link to={`/blogs/${blog.id}`}>
              <button className="read-btn">Read More</button>
-          </Link>
+           </Link>
           </div>
         </div>
         ))}

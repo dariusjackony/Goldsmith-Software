@@ -1,0 +1,22 @@
+.blog-details-main-container {
+    color: white;
+    padding: 30px;
+    background: linear-gradient(to bottom,#0a0f1f, #0f172a, #182231);
+}
+.back-link {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.blog-main-title {
+    font-size: 2rem;
+}
+.blog-description {
+    margin-top: 20px;
+}
+.blog-details-content {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}

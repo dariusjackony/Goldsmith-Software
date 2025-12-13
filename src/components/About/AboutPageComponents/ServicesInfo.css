@@ -46,7 +46,9 @@
 }
 
 .sr-img {
-    width: 150px;
+    width: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    border-radius: 5px;
 }
 .si-tags {
     display: flex;
@@ -71,10 +73,35 @@
 }
 
 @media (max-width: 480px){
+    .services-info-container {
+        padding: 40px 16px; 
+    }
+
     .sr-head{
         font-size: 23px;
+        margin-bottom: 25px;
+        
     }
+
+    .si-content {
+        gap: 18px; 
+    }
+
     .si-card {
-        max-width: 100%;
+        padding: 18px;
+        gap: 14px;
+        border-radius: 12px;
+    }
+    .si-title {
+        font-size: 1.1rem; 
+    }
+
+    .si-paragraph {
+        line-height: 1.5;
+    }
+
+    .tag {
+        font-size: 0.75rem;
+        padding: 5px 10px;
     }
 }

@@ -62,3 +62,23 @@
         max-width: 100%;
     }
 }
+@media (max-width: 480px) {
+    .about-content-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 40px;
+    }
+    .about-subtitle {
+        font-size: 18px;
+    }
+    .about-title {
+        font-size: 23px;
+    }
+    .goldsmith-abt-img {
+        width: 100%;            
+        max-width: 480px;       
+    }
+}

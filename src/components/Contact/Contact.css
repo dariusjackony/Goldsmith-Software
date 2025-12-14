@@ -51,6 +51,14 @@
     }
 }
   @media (max-width: 480px) {
+  .contact-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+    gap: 25px;
+  }
+
   .contact-head {
     font-size: 23px;
     text-align: left;
@@ -60,10 +68,6 @@
   .where-to-find-us,
   .working-hours {
     text-align: left;
+    width: 100%; 
   }
-
-  .contact-content-container {
-    align-items: flex-start; 
-  }
-
 }

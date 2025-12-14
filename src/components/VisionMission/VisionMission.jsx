@@ -4,6 +4,7 @@ export default function VisionMission(){
     return(
         <section className="vm-main-container">
             <div className="vm-content-container">
+              <div className="about-content1"></div>
                 <div className="vm-img">
                     <img src={VisionMissionImg} className="vm-image"/>
                 </div>

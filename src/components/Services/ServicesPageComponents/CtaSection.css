@@ -37,6 +37,7 @@
     }
     .cta-subtitle {
         max-width: 95%;
+        font-size: 18px;
     }
     .CtaSection-main-container{
         display: block;

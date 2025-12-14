@@ -1,13 +1,18 @@
-
+import "./Comment.css";
 export default function Comment(){
-    <section>
-        <span>Comments</span>
-        <form>
+  return(
+      <section className="comments-main-section">
+        <span className="comment-head">Comment</span>
+        <form className="comment-details">
            <textarea 
-             placeholder="Write Your Comment on this"
-             
+             placeholder="Write Your Comment on this"    
            />
-           <button>Post Comment</button>
+           <button
+            className="post-btn"
+           >
+            Post Comment
+           </button>
         </form>
-    </section>
+     </section>
+  )
 }

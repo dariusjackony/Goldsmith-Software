@@ -14,8 +14,8 @@ function BlogDetail() {
 
   return (
     <section className="blog-details-main-container">
-        <Link to={`/blogs`}>
-          <span className="back-link">Back to Blogs</span>
+        <Link to={`/blogs`} className="back-link">
+          <span >Back to Blogs</span>
         </Link>
         <div className="blog-details-content">
           <span className="blog-main-title">{blog.title}</span>

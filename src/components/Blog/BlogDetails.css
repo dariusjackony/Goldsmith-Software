@@ -4,9 +4,15 @@
     background: linear-gradient(to bottom,#0a0f1f, #0f172a, #182231);
 }
 .back-link {
+    text-decoration: none;
+    color: #fbbf24;
+    font-weight: bold;
     margin-right: 10px;
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+.back-link:hover {
+    text-decoration: underline;
 }
 .blog-main-title {
     font-size: 2rem;

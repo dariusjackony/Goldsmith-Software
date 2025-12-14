@@ -1,7 +1,9 @@
 .why-choose-main-content {
   margin-top: 10px;
   margin-bottom: 40px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .why-choose-title {
@@ -57,8 +59,16 @@
 }
 
 @media (max-width: 768px) {
+  .why-choose-content-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .why-list li {
+     max-width: 300px;
+  }
   .cloud-img {
-    max-width: 100%;
+    max-width: 350px;
   }
 }
 @media (max-width: 480px) {

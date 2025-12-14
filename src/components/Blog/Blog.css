@@ -73,6 +73,16 @@
     transform: translateY(-4px);
 }
 
+@media (max-width: 768px) {
+    .blogs-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 35px;
+        gap: 30px;
+        justify-content: center;
+ }
+}
+
 @media (max-width: 480px) {
   .blogs-content {
     margin-top: 20px;

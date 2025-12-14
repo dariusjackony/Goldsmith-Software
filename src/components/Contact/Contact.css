@@ -37,8 +37,7 @@
 }
  @media (max-width: 768px) {
     .contact-content-container {
-        flex-wrap: wrap;
-        flex-direction: column-reverse;  
+        display: flex; 
         gap: 25px;                
     }
     .quick-links {

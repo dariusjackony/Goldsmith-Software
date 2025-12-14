@@ -49,7 +49,9 @@
   transform: translateY(-4px);
 }
 @media (max-width: 768px) {
-  
+    .hero {
+      min-height: 50vh;
+    }
     .hero-title {
         font-size: 2.2rem;
     }

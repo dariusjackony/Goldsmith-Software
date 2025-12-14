@@ -40,10 +40,13 @@
 
 @media (max-width: 768px){
     .vm-content-container {
-        flex-direction: column-reverse;
+        display: flex;
+    }
+    .vm-para {
+        max-width: 350px;
     }
     .vm-image {
-      width: 400px;
+      width: 350px;
       margin-top: 20px;
   }
 }

@@ -12,6 +12,7 @@
 .sr-head {
     font-size: 1.8rem;
     margin-bottom: 40px;
+    color: var(--text-on-dark);
 }
 
 .si-content {
@@ -38,9 +39,11 @@
 }
 .si-title {
     font-size: 1.3rem;
+    color: var(--heading-on-dark);
 }
 
 .si-paragraph {
+    color: var(--text-on-dark);
     margin-top: 12px;
     line-height: 1.4;
 }

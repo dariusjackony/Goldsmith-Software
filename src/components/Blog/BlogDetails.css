@@ -15,10 +15,12 @@
     text-decoration: underline;
 }
 .blog-main-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    color: var(--heading-on-dark);
 }
 .blog-description {
     margin-top: 20px;
+    color: var(--text-on-dark);
 }
 .blog-details-content {
     width: 100%;

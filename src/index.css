@@ -7,6 +7,13 @@
 html{
     scroll-behavior: smooth;
 }
+:root {
+    --text-on-dark: #e5e7eb;
+    --heading-on-dark: #ffffff;
+
+    --text-on-light: #1f2933;
+    --heading-on-light: #0a0f1f;
+}
 @media (max-width: 480px) {
     p{
         font-size: 15px;

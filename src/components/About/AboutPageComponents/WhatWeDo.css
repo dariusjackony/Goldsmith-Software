@@ -4,6 +4,7 @@
 }
 .wwd-head {
     font-size: 1.8rem;
+    color: var(--heading-on-light);
 }
 .wwd-content-container {
     display: flex;
@@ -22,7 +23,8 @@
 }
 .wwd-title{
     line-height: 1.4;
-    font-size: 19px;
+    font-size: 1rem;
+    color: var(--text-on-light);
 }
 
 @media (max-width: 768px) {

@@ -11,9 +11,11 @@
     margin-top: 20px;
     font-size: 1.2rem;
     line-height: 1.2;
+    color: var(--text-on-dark);
 }
 .ch-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    color: var(--heading-on-dark);
 }
 
 @media (max-width: 768px) {

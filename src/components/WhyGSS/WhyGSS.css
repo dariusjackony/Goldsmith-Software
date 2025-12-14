@@ -5,6 +5,7 @@
 }
 .whygss-title {
     font-size: 1.8rem;
+    color: var(--heading-on-light);
 }
 .whygss-content {
     display: flex;
@@ -22,7 +23,8 @@
     color: white;
 }
 .whyGSS-card p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: var(--text-on-dark);
 }
 
 @media (max-width: 480px) {

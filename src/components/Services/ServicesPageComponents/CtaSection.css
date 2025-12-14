@@ -6,12 +6,14 @@
 }
 .cta-title {
     font-size: 1.8rem;
+    color: var(--heading-on-light);
 }
 .cta-subtitle {
     max-width: 800px;
     margin-top: 20px;
     font-size: 1.2rem;
     line-height: 1.2;
+    color: var(--text-on-light);
 }
 .cta-btn {
     padding: 10px 30px;

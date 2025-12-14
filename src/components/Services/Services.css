@@ -9,7 +9,7 @@
 }
 .service-title {
     font-size: 1.8rem;
-    color: white;
+    color: var(--heading-on-dark);
 }
 .service-img{
     width: 40px;
@@ -32,9 +32,11 @@
 .service-subtitle {
     line-height: 1.4;
     font-size: 19px;
+    color: var(--heading-on-light);
 }
 .service-description {
     margin-top: 10px;
+    color: var(--text-on-light);
 }
 
 @media (max-width: 768px) {

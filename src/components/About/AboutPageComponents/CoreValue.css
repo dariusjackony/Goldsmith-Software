@@ -18,9 +18,11 @@
 }
 .cv-title{
     font-size: 1.8rem;
+    color: var(--heading-on-light);
 }
-.cv.paragraph {
-    font-size: 19px;
+.cv-paragraph {
+    font-size: 1rem;
+    color: var(--text-on-light);
 }
 
 @media (max-width: 768px) {

@@ -9,21 +9,25 @@
 }
 
 .blog-head {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
+    color: var(--heading-on-dark);
 }
 .blog-intro {
     max-width: 800px;
     margin-top: 20px;
     font-size: 1.2rem;
     line-height: 1.2;
+    color: var(--text-on-dark);
 }
 .blog-title {
     font-size: 1.3rem;
+    color: var(--heading-on-dark);
 }
 .blog-subtitle {
     margin-top: 12px;
     line-height: 1.4;
+    color: var(--text-on-dark);
 }
 .blogs-content {
     display: grid;

@@ -37,7 +37,7 @@
 }
 .cf-head {
     font-size: 1.6rem;
-    color: white;
+    color: var(--heading-on-dark);
 }
 
 .cta-btn {

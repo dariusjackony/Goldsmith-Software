@@ -13,6 +13,7 @@
 }
 .vm-para {
     max-width: 500px;
+    color: var(--text-on-light);
 }
 .num-btn{
     padding: 11px 12px;
@@ -25,6 +26,7 @@
 .vm-title{
     font-size: 1.8rem;
     margin-top: 10px;
+    color: var(--heading-on-light);
 }
 .vm-para {
     max-width: 500px;

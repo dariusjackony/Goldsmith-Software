@@ -10,12 +10,14 @@
     margin-top: 25px;
 }
 .contact-head{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    color: var(--heading-on-dark);
 }
 .info-box {
     margin-top: 10px;
+    color: var(--text-on-dark);
 }
-.footer-link {color: white; text-decoration: none;}
+.footer-link {color: var(--text-on-dark); text-decoration: none;}
 .footer-link:hover {color: #38bdf8;}
 .send-btn {
   padding: 12px 25px;

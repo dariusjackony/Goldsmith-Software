@@ -10,9 +10,11 @@
     margin-top: 20px;
     font-size: 1.2rem;
     line-height: 1.2;
+    color: var(--text-on-light);
 }
 .sh-title {
     font-size: 2rem;
+    color: var(--heading-on-light);
 }
 
 @media (max-width: 768px) {

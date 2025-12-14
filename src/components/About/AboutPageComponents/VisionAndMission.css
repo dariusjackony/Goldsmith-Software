@@ -30,6 +30,7 @@
 }
 .VaM-paragraph{
     margin-top: 10px;
+    color: var(--text-on-dark);
 }
 
 @media (max-width: 480px) {

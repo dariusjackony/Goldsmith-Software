@@ -14,12 +14,14 @@
 }
 .about-title {
     font-size: 1.8rem;
+    color: var(--heading-on-light);
 }
 .about-subtitle {
     max-width: 500px;
     line-height: 1.4;
     font-size: 18px;
     margin-top: 10px;
+    color: var(--text-on-light);
 }
 .learn-btn {
     padding: 10px 30px;

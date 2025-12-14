@@ -57,6 +57,7 @@
     flex-direction: column-reverse;
     align-items: flex-start;
     padding: 20px;
+    margin-top: -20px;
   }
   .vm-image {
     width: 100%;

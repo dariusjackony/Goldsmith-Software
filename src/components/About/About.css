@@ -69,7 +69,7 @@
     align-items: flex-start;
     text-align: left;
     padding: 20px;
-    margin-bottom: 40px;
+    margin-top: -40px;
     }
     .about-subtitle {
         font-size: 18px;

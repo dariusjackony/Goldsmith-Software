@@ -1,4 +1,3 @@
-import "./ServicesInfo.css";
 import aiDev from "../../../assets/ai-dev.jpg";
 import ItSupport from "../../../assets/it-support.jpg";
 import mobileDev from "../../../assets/mobile-and-web-dev.jpg";
@@ -46,29 +45,39 @@ export default function ServicesInfo(){
           tags: ["Cloud Support", "IT Support", "System Monitoring"] 
         }
     ]
-    return(
-        <section className="services-info-container">
-            <span className="sr-head">Our Expertise Areas</span>
-            <div className="service-info-content">
-               <div className="si-content">
-                  {ServiceData.map((item,index) => (
-                    <div className="si-card" key={index}>
-                        <div className="si-card-details">
-                            <span className="si-title">{item.title}</span>
-                            <p className="si-paragraph">{item.description}</p>
-                            <div className="si-tags">
-                              {item.tags.map((tag, index) => (
-                                  <span className="tag" key={index}>{tag}</span>
-                              ))}
-                          </div>
-                        </div>
-                        <div className="sr-image">
-                           <img src={item.Image} className="sr-img"/>
-                        </div>
-                    </div>
-                  ))}
-               </div>
+    return (
+    <section className="px-4 mt-10">
+      <span className="text-2xl">Our Expertise Areas</span>
+      <div className="mt-5 flex flex-col lg:flex-row lg:flex-wrap lg:gap-6">
+        {ServiceData.map((item, index) => (
+          <div
+            key={index}
+            className="mt-4 bg-blue-950 text-white p-5 rounded-lg shadow-lg flex flex-col lg:flex-row lg:items-center lg:justify-between"
+          >
+            <div className="lg:w-2/3">
+              <span className="font-bold text-lg">{item.title}</span>
+              <p className="mt-1 text-gray-200">{item.description}</p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                {item.tags.map((tag, index) => (
+                  <span
+                    key={index}
+                    className="text-sm font-medium px-3 py-1 rounded-full bg-blue-850 border border-amber-100 hover:bg-blue-800 transition-colors duration-200"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
-        </section>
-    )
+            <div className="lg:w-1/3 lg:ml-4">
+              <img
+                src={item.Image}
+                alt={item.title}
+                className="w-full hidden lg:block rounded-lg object-cover"
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }

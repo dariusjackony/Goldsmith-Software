@@ -16,7 +16,7 @@ export default function Navbar() {
             <Link to="/" className="text-white">Home</Link>
             <Link to="/about" className="text-white">About</Link>
             <Link to="/services" className="text-white">Services</Link>
-            <Link to="/blog" className="text-white">Blog</Link>
+            <Link to="/blogs" className="text-white">Blog</Link>
             <Link to="/" className="text-white">Product</Link>
             <Link to="/contact" className="text-white">Contact</Link>
           </div>
@@ -39,7 +39,7 @@ export default function Navbar() {
             <Link to="/" className="text-white" >Home</Link>
             <Link to="/about" className="text-white">About</Link>
             <Link to="/services" className="text-white">Services</Link>
-            <Link to="/blog" className="text-white">Blog</Link>
+            <Link to="/blogs" className="text-white">Blog</Link>
             <Link to="/" className="text-white">Product</Link>
             <Link to="/contact" className="text-white">Contact</Link>
           </div>

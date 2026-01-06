@@ -1,5 +1,3 @@
-import "./WhatWeDo.css";
-
 export default function WhatWeDo(){
     const WorkData = [
         {
@@ -16,15 +14,15 @@ export default function WhatWeDo(){
          }    
         ]
     return(
-        <section className="what-we-do-main-container">
-            <div className="what-we-do-content">
-                <span className="wwd-head">
+        <section className="px-4 mt-10 lg:mt-20 lg:text-center md:text-center">
+            <div className="">
+                <span className="text-2xl">
                     What We Do
                 </span>
-                <div className="wwd-content-container">
+                <div className="mt-5 lg:flex lg:justify-center md:flex md:justify-center md:gap-6 lg:gap-8">
                     {WorkData.map((item,index) => (
-                        <div className="wwd-card" key={index}>
-                            <span className="wwd-title">
+                        <div className="shadow-lg p-5 rounded-lg lg:text-xl lg:max-w-[300px] md:max-w-[360px] text-gray-700" key={index}>
+                            <span className="">
                                 {item.title}
                             </span>
                         </div>

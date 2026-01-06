@@ -1,4 +1,3 @@
-import "./CoreValue.css";
 import ExcellenceIcon from "../../../assets/excellence.png";
 import Inovation from "../../../assets/innovation.png";
 import Integrity from "../../../assets/integrity.png";
@@ -28,13 +27,15 @@ export default function CoreValue(){
         }
     ]
     return(
-        <section className="core-value-main-container">
-            <span className="cv-title">Core Values</span>
-            <div className="core-value-content">
+        <section className="px-4 mt-10 lg:text-center md:text-center">
+            <span className="text-2xl">Core Values</span>
+            <div className="mt-5 lg:flex-row lg:flex lg:gap-5 lg:flex-wrap md:flex md:gap-2 md:flex-wrap ">
                {ValueData.map((item, index) => (
-                <div className="cv-card" key={index}>
-                    <img src={item.image} className="cv-img" />
-                    <p className="cv-paragraph">
+                <div className="flex flex-col items-center justify-center text-center
+                 shadow-2xl p-5 rounded-lg lg:m-auto lg:max-w-[400px] lg:mt-5 md:m-auto md:max-w-[340px]
+                " key={index}>
+                    <img src={item.image} className="w-10" />
+                    <p className="mt-3 lg:text-xl text-gray-700">
                         {item.description}
                     </p>
                 </div>

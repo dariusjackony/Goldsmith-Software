@@ -1,4 +1,3 @@
-import "./Services.css";
 import Tablet from "../../assets/code.png";
 import boxes from "../../assets/boxes.png";
 import star from "../../assets/star.png";
@@ -8,7 +7,7 @@ export default function Services(){
         {
             image: Tablet,
             title: 'Custom Software Development',
-            description: 'ERP systems, inventory tools, automation workflows, desktop & mobile solution.'
+            description: 'ERP systems, inventory tools, automation workflows & apps.'
         },
         {   
             image: boxes,
@@ -27,15 +26,18 @@ export default function Services(){
         }
     ]
     return(
-        <section className="services-main-container">
-           <div className="services-content-container">
-             <span className="service-title">Our Services</span>
-             <div className="service-content">
+        <section className="px-4 mt-10 text-center">
+           <div className="">
+             <span className="text-2xl">Our Services</span>
+             <div className="lg:flex lg:flex-row lg:justify-center lg:text-center lg:text-xl lg:gap-2 md:flex-row md:text-center md:flex-col">
                 {ServiceData.map((item,index) =>(
-                    <div className="service-card" key={index}>
-                        <img src={item.image}  className="service-img"/>
-                        <p className="service-subtitle">{item.title}</p>
-                        <p className="service-description">{item.description}</p>
+                    <div className="  mt-8 shadow-lg p-5 rounded-lg flex flex-col  items-center text-center
+                    md:max-w-[500px] md:m-auto md:mt-5  lg:max-w-[300px] 
+                    " 
+                    key={index}>
+                        <img src={item.image}  className="w-10"/>
+                        <p className="mt-3">{item.title}</p>
+                        <p className="mt-1 text-gray-700">{item.description}</p>
                     </div>
                 ))}
              </div>

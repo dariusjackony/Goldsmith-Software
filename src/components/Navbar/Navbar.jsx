@@ -1,30 +1,50 @@
 import React, { useState } from "react";
-import "./Navbar.css";
-
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
-    <nav className="navbar">
-      <h1 className="navbar-title">GoldSmith Softwares</h1>
-      
-      <div className={`menu-icon ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
+    <nav className="bg-blue-950 shadow-md  w-full">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex justify-between items-center h-16">
+
+          <div className="text-xl font-bold text-white">
+            GoldSmith Softwares
+          </div>
+
+          <div className="hidden md:flex items-center space-x-8 lg:text-xl">
+            <Link to="/" className="text-white">Home</Link>
+            <Link to="/about" className="text-white">About</Link>
+            <Link to="/services" className="text-white">Services</Link>
+            <Link to="/blog" className="text-white">Blog</Link>
+            <Link to="/" className="text-white">Product</Link>
+            <Link to="/contact" className="text-white">Contact</Link>
+          </div>
+
+          <div className="md:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-white font-bold text-2xl"
+            >
+              ☰
+            </button>
+          </div>
+
+        </div>
       </div>
 
-      <ul className={`navbar-links ${isOpen ? "active" : ""}`}>
-        <li><a href="/" onClick={() => setIsOpen(false)}>Home</a></li>
-        <li><a href="/about" onClick={() => setIsOpen(false)}>About</a></li>
-        <li><a href="/services" onClick={() => setIsOpen(false)}>Services</a></li>
-        <li><a href="/blogs" onClick={() => setIsOpen(false)}>Blog</a></li>
-        <li><a href="/contact" onClick={() => setIsOpen(false)}>Contact</a></li>
-      </ul>
+      {isOpen && (
+        <div className="md:hidden shadow-md relative">
+          <div className="flex flex-col space-y-4  bg-blue-950 px-4 py-6 absolute w-full top-full left-0 z-50" onClick={ () => setIsOpen(!isOpen)}>
+            <Link to="/" className="text-white" >Home</Link>
+            <Link to="/about" className="text-white">About</Link>
+            <Link to="/services" className="text-white">Services</Link>
+            <Link to="/blog" className="text-white">Blog</Link>
+            <Link to="/" className="text-white">Product</Link>
+            <Link to="/contact" className="text-white">Contact</Link>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
+import { FiArrowLeft } from "react-icons/fi";
 import {Link} from "react-router-dom";
 import { blogs } from "./BlogData";
 import Comment from "./Comment/Comment";
-import "./BlogDetails.css";
 function BlogDetail() {
   const { blogId } = useParams();
 
@@ -13,13 +13,13 @@ function BlogDetail() {
   }
 
   return (
-    <section className="blog-details-main-container">
-        <Link to={`/blogs`} className="back-link">
-          <span >Back to Blogs</span>
+    <section className="bg-blue-950 text-white px-4 ">
+        <Link to={`/blogs`} className="">
+          <p className="text-2xl font-bold" > <FiArrowLeft /> </p>
         </Link>
-        <div className="blog-details-content">
-          <span className="blog-main-title">{blog.title}</span>
-          <p className="blog-description">{blog.content}</p>
+        <div className="mt-5">
+          <span className="font-bold text-2xl">{blog.title}</span>
+          <p className="mt-2  text-gray-200 lg:text-xl">{blog.content}</p>
         </div>
         <Comment />
     </section>

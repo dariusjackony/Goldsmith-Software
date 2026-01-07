@@ -55,20 +55,20 @@ export default function ServicesInfo(){
             className="mt-4 bg-blue-950 text-white p-5 rounded-lg shadow-lg flex flex-col lg:flex-row lg:items-center lg:justify-between"
           >
             <div className="lg:w-2/3">
-              <span className="font-bold text-lg">{item.title}</span>
-              <p className="mt-1 text-gray-200">{item.description}</p>
+              <span className="font-bold lg:text-xl">{item.title}</span>
+              <p className="mt-1 lg:text-xl text-gray-200">{item.description}</p>
               <div className="mt-3 flex flex-wrap gap-2">
                 {item.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="text-sm font-medium px-3 py-1 rounded-full bg-blue-850 border border-amber-100 hover:bg-blue-800 transition-colors duration-200"
+                    className=" px-3 py-1 rounded-full bg-blue-850 border border-amber-100 hover:bg-blue-800 transition-colors duration-200"
                   >
                     {tag}
                   </span>
                 ))}
               </div>
             </div>
-            <div className="lg:w-1/3 lg:ml-4">
+            <div className="lg:w-2/9 lg:ml-4">
               <img
                 src={item.Image}
                 alt={item.title}

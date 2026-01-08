@@ -21,7 +21,7 @@ export default function PricingCards() {
                     ))}
                 </div>
                 <button
-                 className="bg-gray-400 w-full mt-5 p-2 rounded-lg"
+                 className="bg-gray-400 w-full mt-5 p-2 rounded-lg font-semibold"
                 >
                  Download Lite
                 </button>

@@ -12,7 +12,7 @@ export default function PricingCards() {
          <span className="text-2xl">Choose your plan</span>
          <div className="mt-5">
             {PriceData.map((item, i) =>(
-              <div key={i} className="border-2 border-amber-200 p-3 rounded-lg">
+              <div key={i} className="border-2 border-blue-600 p-5 rounded-lg">
                 <span className="text-xl">{item.head}</span>
                 <p className="text-blue-700 text-2xl mt-2">{item.price}</p>
                 <div className="mt-2">
@@ -27,10 +27,10 @@ export default function PricingCards() {
                 </button>
               </div>  
             ))}
-             <div className="border-2 border-amber-200 p-3 rounded-lg mt-4">
-                <span className="bg-blue-800 p-1 rounded-lg text-white">most popular</span>
+             <div className="border-2 border-blue-600 p-5 rounded-lg mt-4">
+                <span className="bg-blue-800 p-1 rounded-full px-[10px] py-1 text-xs text-white">most popular</span>
                 <p className="text-xl mt-4">Pro</p>
-                <p><span className="text-blue-800 text-xl">$14.99</span> /one time</p>
+                <p className="text-gray-700"><span className="text-blue-800 text-xl">$14.99</span> /one-time</p>
                 <p className="text-blue-700 text-2xl mt-2"></p>
                 <div className="mt-2 text-gray-700">
                     <p>✓Advanced spam filtering</p>

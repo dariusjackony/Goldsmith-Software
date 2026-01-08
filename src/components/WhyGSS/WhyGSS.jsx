@@ -19,7 +19,7 @@ export default function WhyGSS(){
         <div className="mt-5 mb-4">
           {WhyGSSData.map((item,index) =>(
             <div className="bg-blue-950 mt-2 rounded-lg md:max-w-[500px] md:m-auto md:mt-2">
-                <p className="text-gray-700 p-2 lg:p-5 lg:text-xl text-white">{item.description}</p>
+                <p className="text-gray-700 p-2 lg:p-5 text-white">{item.description}</p>
             </div>
           ))}
         </div>

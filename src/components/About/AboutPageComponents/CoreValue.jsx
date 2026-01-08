@@ -35,7 +35,7 @@ export default function CoreValue(){
                  shadow-2xl p-5 rounded-lg lg:m-auto lg:max-w-[400px] lg:mt-5 md:m-auto md:max-w-[340px]
                 " key={index}>
                     <img src={item.image} className="w-10" />
-                    <p className="mt-3 lg:text-xl text-gray-700">
+                    <p className="mt-3 text-gray-700">
                         {item.description}
                     </p>
                 </div>

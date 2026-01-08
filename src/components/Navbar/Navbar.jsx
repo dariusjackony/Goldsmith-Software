@@ -13,7 +13,7 @@ export default function Navbar() {
             GoldSmith Softwares
           </div>
 
-          <div className="hidden md:flex items-center space-x-8 lg:text-xl">
+          <div className="hidden md:flex items-center space-x-8 ">
             <Link to="/" className="text-white">Home</Link>
             <Link to="/about" className="text-white">About</Link>
             <Link to="/services" className="text-white">Services</Link>

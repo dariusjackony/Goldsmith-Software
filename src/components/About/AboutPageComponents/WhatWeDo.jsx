@@ -21,7 +21,7 @@ export default function WhatWeDo(){
                 </span>
                 <div className="mt-5 lg:flex lg:justify-center md:flex md:justify-center md:gap-6 lg:gap-8">
                     {WorkData.map((item,index) => (
-                        <div className="shadow-lg p-5 rounded-lg lg:text-xl lg:max-w-[300px] md:max-w-[360px] text-gray-700" key={index}>
+                        <div className="shadow-lg p-5 rounded-lg  lg:max-w-[300px] md:max-w-[360px] text-gray-700" key={index}>
                             <span className="">
                                 {item.title}
                             </span>

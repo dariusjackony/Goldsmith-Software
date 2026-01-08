@@ -20,7 +20,7 @@ export default function VisionAndMission(){
                 {Data.map((each, i) =>(
                   <div key={i} className="
                   bg-blue-950 text-white mt-2 p-5 shadow-lg rounded-lg flex flex-col items-center 
-                   justify-center text-center lg:max-w-[500px] lg:text-xl md:max-w-[400px] lg:mx-0 md:mx-auto md:items-center md:mt-5
+                   justify-center text-center lg:max-w-[500px]  md:max-w-[400px] lg:mx-0 md:mx-auto md:items-center md:mt-5
                   ">
                     <img src={each.icon} className="w-10"/>
                     <p className="mt-2">{each.description}</p>

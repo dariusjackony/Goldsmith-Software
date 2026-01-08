@@ -6,7 +6,7 @@ export default function CtaSection(){
         <div className="">
             <div className="">
              <span className="text-2xl">Ready to Build a Powerful System For Your Business?</span>
-             <p className="mt-3 text-gray-700 lg:text-xl lg:max-w-[800px] lg:m-auto md:mt-3 md:max-w-[600px] md:m-auto">
+             <p className="mt-3 text-gray-700  lg:max-w-[800px] lg:m-auto md:mt-3 md:max-w-[600px] md:m-auto">
                 Whether you need a website, automation software, databases, or a full custom
                 system, our team is ready to turn your idea into a real solution.
              </p>

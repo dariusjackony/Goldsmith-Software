@@ -13,13 +13,13 @@ export default function VisionMission() {
         <div className="md:text-center lg:text-left md:text-left">
           <div>
             <p className="text-2xl ">Our Vision</p>
-            <p className="mt-2 text-gray-700 lg:w-2/3 lg:text-xl">
+            <p className="mt-2 text-gray-700 lg:w-2/3 ">
               To become Africa's most trusted software innovation company shaping
               smarter businesses through intelligent technology.
             </p>
           </div>
 
-          <div className="mt-5 lg:text-xl">
+          <div className="mt-5">
             <p className="text-2xl ">Our Mission</p>
             <p className="mt-2 text-gray-700 ">
               Deliver high-quality, scalable, and secure systems.

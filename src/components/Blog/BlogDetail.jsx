@@ -19,7 +19,7 @@ function BlogDetail() {
         </Link>
         <div className="mt-5">
           <span className="font-bold text-2xl">{blog.title}</span>
-          <p className="mt-2  text-gray-200 lg:text-xl">{blog.content}</p>
+          <p className="mt-2  text-gray-200 ">{blog.content}</p>
         </div>
         <Comment />
     </section>

@@ -29,7 +29,7 @@ export default function Services(){
         <section className="px-4 mt-10 text-center">
            <div className="">
              <span className="text-2xl">Our Services</span>
-             <div className="lg:flex lg:flex-row lg:justify-center lg:text-center lg:text-xl lg:gap-2 md:flex-row md:text-center md:flex-col">
+             <div className="lg:flex lg:flex-row lg:justify-center lg:text-center lg:gap-2 md:flex-row md:text-center md:flex-col">
                 {ServiceData.map((item,index) =>(
                     <div className="  mt-8 shadow-lg p-5 rounded-lg flex flex-col  items-center text-center
                     md:max-w-[500px] md:m-auto md:mt-5  lg:max-w-[300px] 

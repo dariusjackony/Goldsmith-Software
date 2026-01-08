@@ -8,7 +8,7 @@ export default function About() {
       <div className="flex flex-col lg:flex-row  lg:justify-between lg:items-center lg:gap-10 md:flex-row  md:justify-between md:items-center md:gap-10 ">
         <div className="md:text-center lg:text-left lg:w-2/3 md:text-left  md:ml-18 lg:ml-48">
           <span className="text-2xl">About Us</span>
-          <p className="mt-2 text-gray-700 lg:text-xl ">
+          <p className="mt-2 text-gray-700 ">
             Goldsmith is a modern tech company building custom systems that
             help businesses operate efficiently, automate processes, and scale.
             We design every product with precision, stability, and innovation.

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+   const [open, setOpen] = useState(false);
 
   return (
     <nav className="bg-blue-950 shadow-md  w-full">
@@ -17,7 +18,37 @@ export default function Navbar() {
             <Link to="/about" className="text-white">About</Link>
             <Link to="/services" className="text-white">Services</Link>
             <Link to="/blogs" className="text-white">Blog</Link>
-            <Link to="/" className="text-white">Product</Link>
+            {/*Products*/}
+            <div className="relative">
+              <button className="text-white cursor-pointer"
+               onClick={ () => setOpen(!open)}
+              >
+                Products
+                <span 
+                 className={` inline-block transform transition-transform duration-200 ${ open ? "rotate-180" : ""}`}
+                 >
+                  ▼
+                </span>
+              </button>
+
+              {/* if its true, renders what's inside and if false, render nothing*/}
+              { open && (
+               <div className="absolute z-50 w-40 p-2 rounded-lg bg-blue-950 text-white">
+                 <Link className="px-4 block mt-3" onClick={ () => setOpen(!open)}>
+                    WordPress
+                 </Link>
+                 <Link className="px-4 block" onClick={ () => setOpen(!open)}>
+                    WordPress
+                 </Link>
+                 <Link className="px-4 block" onClick={ () => setOpen(!open)}>
+                    WordPress
+                 </Link>
+                 <Link className="px-4 block" onClick={ () => setOpen(!open)}>
+                    WordPress
+                 </Link>
+               </div> 
+              )}
+            </div>
             <Link to="/contact" className="text-white">Contact</Link>
           </div>
 

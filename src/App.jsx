@@ -4,7 +4,6 @@ import AboutPage from "./pages/About/AboutPage";
 import VisionMIssionPage from "./pages/VisionMission/VisionMissionPage";
 import ServicesPage from "./pages/Services/ServicesPage";
 import WhyGSSPage from "./pages/WhyGSS/WhyGSSPage";
-import ContactPage from "./pages/Contact/ContactPage";
 import AboutSection from "./pages/About/AboutSection";
 import ServicesPageSection from "./pages/Services/ServicesPageSection";
 import ContactSectionPage from "./pages/Contact/ContactSectionPage";
@@ -12,7 +11,6 @@ import BlogPage from "./pages/Blog/BlogPage";
 import BlogDetailPage from "./pages/Blog/BlogDetailPage";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 export default function App(){
   return(
     <BrowserRouter>
@@ -25,7 +23,6 @@ export default function App(){
             <VisionMIssionPage />
             <ServicesPage />
             <WhyGSSPage />
-            <ContactPage />
           </>
         } />
         <Route path="/about" element={<AboutSection />} />

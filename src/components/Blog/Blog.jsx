@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Contact from "../../components/Contact/Contact";
 import CodePic from "../../assets/software-dev.jpg";
 import Button from "../Button";
 const blogs = [

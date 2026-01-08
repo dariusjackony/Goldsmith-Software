@@ -46,13 +46,14 @@ export default function ServicesInfo(){
         }
     ]
     return (
-    <section className="px-4 mt-10">
-      <span className="text-2xl">Our Expertise Areas</span>
+    <section className="px-4 mt-10 ">
+      <p className="text-2xl lg:text-center lg:m-auto md:text-center md:m-auto">Our Expertise Areas</p>
       <div className="mt-5 flex flex-col lg:flex-row lg:flex-wrap lg:gap-6">
         {ServiceData.map((item, index) => (
           <div
             key={index}
-            className="mt-4 bg-blue-950 text-white p-5 rounded-lg shadow-lg flex flex-col lg:flex-row lg:items-center lg:justify-between"
+            className="mt-4 bg-blue-950 text-white p-5 rounded-lg shadow-lg flex flex-col lg:flex-row lg:items-center lg:justify-between
+             lg:max-w-[1000px] lg:m-auto"
           >
             <div className="lg:w-2/3">
               <span className="font-bold lg:text-xl">{item.title}</span>
@@ -68,7 +69,7 @@ export default function ServicesInfo(){
                 ))}
               </div>
             </div>
-            <div className="lg:w-2/9 lg:ml-4">
+            <div className="lg:w-2/7 lg:ml-4">
               <img
                 src={item.Image}
                 alt={item.title}

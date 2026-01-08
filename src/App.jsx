@@ -10,6 +10,7 @@ import ContactSectionPage from "./pages/Contact/ContactSectionPage";
 import BlogPage from "./pages/Blog/BlogPage";
 import BlogDetailPage from "./pages/Blog/BlogDetailPage";
 import Footer from "./components/Footer/Footer";
+import WpEnglishPage from "./pages/ProductsPage/WpEnglishPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 export default function App(){
   return(
@@ -30,6 +31,7 @@ export default function App(){
         <Route path="/contact" element={<ContactSectionPage />} />
         <Route path="/blogs" element={<BlogPage />} />
         <Route path="/blogs/:blogId" element={<BlogDetailPage />} />
+        <Route path="wpenglish" element={<WpEnglishPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

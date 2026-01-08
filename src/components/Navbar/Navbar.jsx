@@ -33,9 +33,9 @@ export default function Navbar() {
 
               {/* if its true, renders what's inside and if false, render nothing*/}
               { open && (
-               <div className="absolute z-50 w-40 p-2 rounded-lg bg-blue-950 text-white">
-                 <Link className="px-4 block mt-3" onClick={ () => setOpen(!open)}>
-                    WordPress
+               <div className="absolute z-50 w-60 p-2 rounded-lg bg-blue-950 text-white">
+                 <Link to="/wpenglish" className="px-4 block mt-3" onClick={ () => setOpen(!open)}>
+                    WP English Only
                  </Link>
                  <Link className="px-4 block" onClick={ () => setOpen(!open)}>
                     WordPress

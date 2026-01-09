@@ -33,19 +33,11 @@ export default function Navbar() {
 
               {/* if its true, renders what's inside and if false, render nothing*/}
               { open && (
-               <div className="absolute z-50 w-60 p-2 rounded-lg bg-blue-950 text-white">
+               <div className="absolute z-50 w-60 p-2 rounded-lg bg-blue-950 text-white lg:-ml-7 md:-ml-15">
                  <Link to="/wpenglish" className="px-4 block mt-3" onClick={ () => setOpen(!open)}>
                     WP English Only
                  </Link>
-                 <Link className="px-4 block" onClick={ () => setOpen(!open)}>
-                    WordPress
-                 </Link>
-                 <Link className="px-4 block" onClick={ () => setOpen(!open)}>
-                    WordPress
-                 </Link>
-                 <Link className="px-4 block" onClick={ () => setOpen(!open)}>
-                    WordPress
-                 </Link>
+                 
                </div> 
               )}
             </div>
@@ -102,8 +94,6 @@ export default function Navbar() {
                     WP English Only
                   </Link>
 
-                  <Link className="text-white">WordPress</Link>
-                  <Link className="text-white">WordPress</Link>
                 </div>
               )}
             </div>

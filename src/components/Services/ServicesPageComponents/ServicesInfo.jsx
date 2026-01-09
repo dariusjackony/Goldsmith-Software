@@ -59,7 +59,7 @@ export default function ServicesInfo(){
               <span className="font-bold lg:text-xl">{item.title}</span>
               <p className="mt-1 text-gray-200">{item.description}</p>
               <div className="mt-3 flex flex-wrap gap-2">
-                {/* tags*/}
+                {/* Tags*/}
                 {item.tags.map((tag, index) => (
                   <span
                     key={index}

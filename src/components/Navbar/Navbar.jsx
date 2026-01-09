@@ -71,7 +71,43 @@ export default function Navbar() {
             <Link to="/about" className="text-white">About</Link>
             <Link to="/services" className="text-white">Services</Link>
             <Link to="/blogs" className="text-white">Blog</Link>
-            <Link to="/" className="text-white">Product</Link>
+            <div className="flex flex-col">
+              <button
+                className="text-white flex justify-between items-center"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setOpen(!open);
+                }}
+              >
+                Products
+                <span
+                  className={`transform transition-transform ${
+                    open ? "rotate-180" : ""
+                  }`}
+                >
+                  ▼
+                </span>
+              </button>
+
+              {open && (
+                <div className="ml-4 mt-2 flex flex-col space-y-5 w-48">
+                  <Link
+                    to="/wpenglish"
+                    className="text-white"
+                    onClick={() => {
+                      setOpen(false);
+                      setIsOpen(false);
+                    }}
+                  >
+                    WP English Only
+                  </Link>
+
+                  <Link className="text-white">WordPress</Link>
+                  <Link className="text-white">WordPress</Link>
+                </div>
+              )}
+            </div>
+
             <Link to="/contact" className="text-white">Contact</Link>
           </div>
         </div>

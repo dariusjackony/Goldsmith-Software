@@ -2,7 +2,7 @@ import Button from "../../Button";
 
 export default function ContactField() {
   return (
-    <section className="px-4 mt-6 grid place-items-center">
+    <section className="px-4 mt-6 grid place-items-center mb-5">
       <div className="bg-blue-950 text-white rounded-xl w-full max-w-lg shadow-lg">
         <form className="p-6 flex flex-col gap-4">
           <span className="lg:text-xl md:text-xl font-semibold">Talk to us today</span>

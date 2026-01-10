@@ -13,7 +13,7 @@ const blogs = [
 
 function Blogs() {
   return (
-    <div className="px-4 mt-5">
+    <div className="px-4 mt-5 mb-5">
       <div className="md:text-center lg:text-center">
         <span className="text-2xl">Our Blogs</span>
         <p className="mt-2 text-gray-700 lg:max-w-[900px] lg:m-auto lg:mt-3 md:max-w-[600px] md:mt-2 md:m-auto ">

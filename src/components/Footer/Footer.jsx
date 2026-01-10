@@ -12,7 +12,7 @@ export default function Footer() {
   };
 
   return (
-    <section className=" mt-10">
+    <section className="">
       <div className="bg-blue-950">
           <div className="px-4 grid lg:flex-row lg:flex lg:justify-around md:flex-row md:flex md:justify-around gap-3 text-gray-300 pt-8">
             {/*location*/}

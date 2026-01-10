@@ -13,7 +13,7 @@ function BlogDetail() {
   }
 
   return (
-    <section className="bg-blue-950 text-white px-4 ">
+    <section className="bg-blue-950 min-h-screen text-white px-4 ">
         <Link to={`/blogs`} className="">
           <p className="text-2xl font-bold" > <FiArrowLeft /> </p>
         </Link>

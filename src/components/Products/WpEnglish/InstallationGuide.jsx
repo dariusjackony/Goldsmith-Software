@@ -1,7 +1,7 @@
 
 export default function InstallationGuide(){
     return(
-        <section className="px-4 mt-5 lg:flex lg:justify-center md:flex md:justify-center">
+        <section className="px-4 mt-5 lg:flex lg:justify-center md:flex md:justify-center mb-5">
             <div>
                 <span className="text-2xl lg:text-center lg:block md:text-center md:block">Installation Guide</span>
                 <div className="mt-3 bg-blue-950 shadow-md text-white p-4 lg:p-6 lg:mt-5 rounded-lg lg:max-w-[800px]">

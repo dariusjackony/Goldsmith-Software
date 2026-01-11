@@ -9,7 +9,7 @@ export default function VisionAndMission(){
     {
       icon: MissionIcon,
       title: "Mission",
-      description: "To become Africa’s most trusted software innovation company delivering world-class digital solutions that transform businesses and communities."
+      description: "To build trusted software solutions that help African organizations grow smarter by integrating automation, cloud, AI, and modern digital infrastructure."
     },
   ]
     return(

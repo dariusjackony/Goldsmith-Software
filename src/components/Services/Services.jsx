@@ -7,22 +7,22 @@ export default function Services(){
         {
             image: Tablet,
             title: 'Custom Software Development',
-            description: 'ERP systems, inventory tools, automation workflows & apps.'
+            description: 'ERP systems, inventory tools, automation workflows , desktops and mobile apps'
         },
         {   
             image: boxes,
             title: 'Web & Mobile Apps',
-            description: 'Corporate websites, e-commerce platforms, Android/IOS apps, UI/UX design.'
+            description: 'Corporate websites, e-commerce platforms, Android/IOS apps, UI/UX design'
         },
         {
             image: star,
             title: 'AI & Data Solutions',
-            description: 'Chatbots, predictive analytics, machine learning,automation systems.'
+            description: 'Chatbots, predictive analytics, machine learning,automation systems'
         },
         {
             image: desktop,
             title: 'System Design & Architecture',
-            description: 'API development, database design, cloud infrastructure planning.'
+            description: 'API development, database design, cloud infrastructure planning'
         }
     ]
     return(

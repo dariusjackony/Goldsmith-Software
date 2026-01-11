@@ -60,7 +60,7 @@ export default function Footer() {
           </div>
           <div className="mt-5">
             <hr className="text-gray-700" />
-            <p className="text-gray-300 mt-1 text-center">&copy; {new Date().getFullYear()} Goldsmith S Ltd All rights reserved. </p>
+            <p className="text-gray-300 mt-1 text-center">&copy; {new Date().getFullYear()} Goldsmith Softwares Ltd All rights reserved. </p>
           </div>
       </div>
     </section>

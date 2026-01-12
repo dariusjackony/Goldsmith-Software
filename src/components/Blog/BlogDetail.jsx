@@ -1,12 +1,18 @@
 import { useParams } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 import {Link} from "react-router-dom";
-import { blogs } from "./BlogData";
 import Comment from "./Comment/Comment";
+import { useEffect, useState } from "react";
 function BlogDetail() {
-  const { blogId } = useParams();
-
-  const blog = blogs.find((b) => b.id === blogId);
+  const { id } = useParams();
+  const [blog, setBlog] = useState(null);
+  useEffect( () =>{
+    fetch(`http://127.0.0.1:8000/api/blogs/${id}`)
+     .then((res) => res.json())
+     .then((data) => setBlog(data))
+     .catch((error) => console.log(err))
+  },[id])
+  
 
   if (!blog) {
     return <span>Blog not found</span>;

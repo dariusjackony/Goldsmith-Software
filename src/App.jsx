@@ -30,7 +30,7 @@ export default function App(){
         <Route path="/services" element={<ServicesPageSection />} />
         <Route path="/contact" element={<ContactSectionPage />} />
         <Route path="/blogs" element={<BlogPage />} />
-        <Route path="/blogs/:blogId" element={<BlogDetailPage />} />
+        <Route path="/blogs/:id" element={<BlogDetailPage />} />
         <Route path="wpenglish" element={<WpEnglishPage />} />
       </Routes>
       <Footer />

@@ -2,21 +2,10 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import CodePic from "../../assets/software-dev.jpg";
 import Button from "../Button";
-// const blogs = [
-//   { id: "web-development-tips", image: CodePic, title: "Top 5 Web Development Tips", content:"Learn the essential tips for building fast, responsive, and modern websites that delight users." },
-//   { id: "ai-in-software", image: CodePic, title: "How AI is Changing Software Development", content:"Explore how artificial intelligence is revolutionizing software development, from automation to smarter apps." },
-//   { id: "ai-in-software", image: CodePic, title: "How AI is Changing Software Development", content:"Explore how artificial intelligence is revolutionizing software development, from automation to smarter apps." },
-//   { id: "ai-in-software", image: CodePic, title: "How AI is Changing Software Development", content:"Explore how artificial intelligence is revolutionizing software development, from automation to smarter apps." },
-//   { id: "ai-in-software", image: CodePic,  title: "How AI is Changing Software Development", content:"Explore how artificial intelligence is revolutionizing software development, from automation to smarter apps." },
-//   { id: "ai-in-software", image: CodePic,  title: "How AI is Changing Software Development", content:"Explore how artificial intelligence is revolutionizing software development, from automation to smarter apps." },
-   
-// ];
-
-
 function Blogs() {
   const [blogs, setBlogs] = useState([]);
   useEffect( () => {
-    fetch("http://127.0.0.1:8000/api/blogs/")
+    fetch(`${import.meta.env.VITE_API_URL}/blogs/`)
       .then((res) => res.json())
       .then((data) => setBlogs(data))
       .catch((err) => console.log("Error fetching blogs:", err));

@@ -1,13 +1,14 @@
 import { useParams } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
-import {Link} from "react-router-dom";
+import {Link} from "react-router-dom"; 
 import Comment from "./Comment/Comment";
 import { useEffect, useState } from "react";
+
 function BlogDetail() {
   const { id } = useParams();
   const [blog, setBlog] = useState(null);
   useEffect( () =>{
-    fetch(`http://127.0.0.1:8000/api/blogs/${id}`)
+    fetch(`${import.meta.env.VITE_API_URL}/blogs/${id}`)
      .then((res) => res.json())
      .then((data) => setBlog(data))
      .catch((error) => console.log(err))

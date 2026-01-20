@@ -24,10 +24,16 @@ function BlogDetail() {
         <Link to={`/blogs`} className="">
           <p className="text-2xl font-bold" > <FiArrowLeft /> </p>
         </Link>
-        <div className="mt-5">
-          <span className="font-bold text-2xl">{blog.title}</span>
-          <p className="mt-2  text-gray-200 ">{blog.content}</p>
-        </div>
+        <div className="mt-6 max-w-4xl mx-auto text-center text-left">
+          <h1 className="font-extrabold text-3xl md:text-4xl text-white leading-tight">
+            {blog.title}
+          </h1>
+
+          <p className="mt-4 text-gray-300 text-base md:text-lg leading-relaxed">
+            {blog.content}
+          </p>
+       </div>
+
         <Comment />
     </section>
   );

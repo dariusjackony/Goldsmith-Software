@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 export default function PricingCards() {
     const PriceData = [
         {
@@ -20,11 +21,12 @@ export default function PricingCards() {
                         <p key={i} className="text-gray-700">✓{desc}</p>
                     ))}
                 </div>
-                <button
-                 className="bg-gray-400 w-full mt-5 px-6 py-3 rounded-lg font-semibold"
+                <a href="https://wordpress.org/plugins/englishonly/"
+                 target="_blank"
+                 className=" block text-center bg-gray-400 w-full mt-5 px-6 py-3 rounded-lg font-semibold"
                 >
                  Download Lite
-                </button>
+                </a>
               </div>  
             ))}
              <div className="border border-blue-600 p-5 rounded-lg mt-4 w-full lg:flex-1 md:flex-1">
@@ -38,8 +40,9 @@ export default function PricingCards() {
                     <p>✓Priority support</p>
                     <p>✓Future updates included</p>
                 </div>
-                <button className="
-                    mt-4 px-6 py-3 text-sm md:text-base font-semibold text-white
+                <a
+                   className="
+                    mt-4 px-6 py-3 text-sm md:text-base font-semibold text-white block text-center
                     bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900
                     rounded-xl shadow-lg w-full
                     hover:from-blue-800 hover:via-blue-700 hover:to-indigo-800
@@ -47,7 +50,7 @@ export default function PricingCards() {
                     focus:outline-none focus:ring-2 focus:ring-blue-700 cursor-pointer"
                 >
                  Get Pro
-              </button>
+              </a>
             </div>  
          </div>
        </section>

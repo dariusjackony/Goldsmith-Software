@@ -4,12 +4,31 @@ import CodePic from "../../assets/software-dev.jpg";
 import Button from "../Button";
 function Blogs() {
   const [blogs, setBlogs] = useState([]);
+  const [loading, setLoading] = useState(true);
   useEffect( () => {
     fetch(`${import.meta.env.VITE_API_URL}/blogs/`)
       .then((res) => res.json())
-      .then((data) => setBlogs(data))
-      .catch((err) => console.log("Error fetching blogs:", err));
+      .then((data) => {
+        setBlogs(data)
+        setLoading(false);
+
+      })
+      .catch((err) => {
+        console.log("Error fetching blogs:", err)
+        setLoading(false)
+      });
   },[]);
+
+  if (loading) {
+    return (
+      <div className="flex flex-col justify-center items-center h-screen">
+        <p className="text-2xl font-semibold">Our Blogs</p>
+        <p className="mt-3 text-gray-600 animate-pulse">
+          Fetching latest articles...
+        </p>
+      </div>
+    );
+  }
   return (
     <div className="px-4 mt-5 mb-5">
       <div className="md:text-center lg:text-center">

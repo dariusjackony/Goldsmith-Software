@@ -29,9 +29,7 @@ function BlogDetail() {
             {blog.title}
           </h1>
 
-          <p className="mt-4 text-gray-300 text-base md:text-lg leading-relaxed">
-            {blog.content}
-          </p>
+          <div dangerouslySetInnerHTML={{ __html: blog.content }} />
        </div>
 
         <Comment />

@@ -19,8 +19,8 @@ export default function Features() {
         <div className="mt-3 lg:flex lg:justify-center lg:gap-2 md:flex md:justify-center md:gap-2">
             {Data.map((each, i) =>(
                 <div key={i} className="mt-2 p-3 shadow-lg rounded-lg lg:max-w-[400px] md:max-w-[230px]">
-                    <p className="lg:text-xl">{each.title}</p>
-                    <p className="mt-2 text-gray-700">{each.description}</p>
+                    <p className="lg:text-xl font-semibold text-center">{each.title}</p>
+                    <p className="mt-1 text-center text-gray-700">{each.description}</p>
                 </div>
             ))}
         </div>
